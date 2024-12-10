@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to top, #ff7f00, #000000); /* Laranja e preto */
+}
+
+h1 {
+    font-weight: bolder;
+    color: #ffffff; /* Branco */
+}
+
+a {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #ff9c33, #ff4500); /* Tons de laranja */
+    color: #ffffff; /* Branco */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease; /* Adiciona transição suave */
+}
+
+a:hover {
+    background: linear-gradient(to bottom, #ffffff, #000000); /* Branco e preto */
+    border-radius: 5px;
+    color: #ff7f00; /* Laranja */
+}

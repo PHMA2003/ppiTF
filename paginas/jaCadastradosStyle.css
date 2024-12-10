@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to top, #ff7f00, #000000); /* Laranja e preto */
+}
+
+#caixa {
+    background: linear-gradient(to bottom, #ff7f00, #000000); /* Laranja e preto */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Aumenta a profundidade */
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+    color: #ffffff; /* Branco */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3, .label {
+    color: #ffffff; /* Branco */
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff; /* Branco */
+    border-radius: 4px;
+    background-color: #000000; /* Preto */
+    color: #ffffff; /* Branco */
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background: linear-gradient(to bottom, #ff9c33, #ff4500); /* Tons de laranja */
+    color: #ffffff; /* Branco */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+button:last-child, a:last-child {
+    margin-right: 0;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #ffffff, #000000); /* Branco e preto */
+    color: #ff7f00; /* Laranja */
+}

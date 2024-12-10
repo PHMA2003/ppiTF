@@ -1,0 +1,22 @@
+{
+  "name": "ppitf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PHMA2003/ppiTF.git"
+  },
+  "author": "Pedro Motta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PHMA2003/ppiTF/issues"
+  },
+  "homepage": "https://github.com/PHMA2003/ppiTF#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
